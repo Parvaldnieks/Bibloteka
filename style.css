@@ -1,0 +1,187 @@
+button {
+    color: black;
+    transition-duration: 0.4s;
+    border: 2px solid floralwhite;
+    background-color: dimgray;
+    border-radius: 5px;
+    width: 65px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: floralwhite;
+}
+
+.text {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    color: floralwhite;
+    font-family: monospace;
+}
+
+.big-text {
+    text-align: center;
+}
+
+body {
+    background-color: dimgray;
+}
+
+.name {
+    color: floralwhite;
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+}
+
+.name:hover {
+    color: black;
+    text-decoration: underline floralwhite;
+    text-decoration-thickness: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: floralwhite;
+}
+
+header {
+    text-align: center;
+}
+
+.create {
+    text-decoration: none;
+    color: floralwhite;
+    position: absolute;
+    right: 100px;
+}
+
+.create:hover {
+    color: black;
+    text-decoration: underline floralwhite;
+}
+
+.create-book {
+    padding-top: 15px;
+}
+
+.books {
+    text-decoration: none;
+    color: floralwhite;
+    position: absolute;
+    left: 100px;
+    cursor: pointer;
+}
+
+.books:hover {
+    color: black;
+    text-decoration: underline floralwhite;
+}
+
+.BOOKS {
+    padding-top: 15px;
+}
+
+.edit {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.show-name {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.show-edit {
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+    color: floralwhite;
+    position: absolute;
+    left: 1080px;
+    top: 70px;
+    cursor: pointer;
+}
+
+.show-edit:hover {
+    text-decoration: underline floralwhite;
+    color: black;
+}
+
+.create-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    padding: 3px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: lightgray;
+    border: 3px solid black;
+}
+
+.flash {
+    opacity: 0;
+    animation: disappear 3s;
+    visibility: hidden;
+}
+
+.login {
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+    color: floralwhite;
+    position: absolute;
+    left: 1093px;
+}
+
+.login:hover {
+    text-decoration: underline floralwhite;
+    text-decoration-thickness: 2px;
+    color: black;
+    position: absolute;
+    left: 1093px;
+}
+
+.register {
+    text-decoration: underline black;
+    text-decoration-thickness: 2px;
+    color: floralwhite;
+    position: absolute;
+    left: 1090px;
+}
+
+.register:hover {
+    text-decoration: underline floralwhite;
+    text-decoration-thickness: 2px;
+    color: black;
+    position: absolute;
+    left: 1090px;
+}
+
+.big {
+    padding-top: 15px;
+}
+
+.logout {
+    text-align: center;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    80% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
