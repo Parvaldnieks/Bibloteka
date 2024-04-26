@@ -4,7 +4,7 @@
 
 <h1 class="big">Register!</h1>
 
-<form method="POST">
+<form method="POST" class="create-column">
 
     <label>Email:
         <input name="email" />
@@ -13,9 +13,10 @@
                 <p><?= $errors["email"] ?></p>
                     <?php } ?>
 
-    <label>Password: <span class="parole">(Jābūt 8 rakstzīmēm, vismaz 1 lielam burtam un mazam, kā arī ciparam un simbolam!)</span>
-        <input name="password" type="password"/>
+    <label>Password:
+        <input name="password" type="password" />
     </label>
+            <span class="parole">(Jābūt 8 rakstzīmēm, vismaz 1 lielam burtam un mazam, kā arī ciparam un simbolam!)</span>
         <?php if(isset($errors["password"])) { ?>
                 <p><?= $errors["password"] ?></p>
                     <?php } ?>

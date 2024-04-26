@@ -4,7 +4,7 @@
 
 <h1 class="big">Login!</h1>
 
-<form method="POST">
+<form method="POST" class="create-column">
 
     <label>Email:
             <input name="email" type="email" />
